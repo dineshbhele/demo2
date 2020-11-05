@@ -16,3 +16,20 @@ git status
 
 To check my updates logs
 git log
+
+To check the available branch
+git branch
+(* or green)=>current branch
+
+To create a new branch
+git branch <branchname>
+
+To checkout into branch
+git checkout -b <branchname>
+
+To delete branch
+git branch -d <branchname>
+
+To merge a branch
+-First need to be in destination branch
+git merge <sourcre-branch>
